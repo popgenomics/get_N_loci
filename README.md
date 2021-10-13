@@ -13,7 +13,7 @@ But please, use the V2 version !
   
 ## BREAKING NEWS: the second version V2 is now AVAILABLE, and THIS, is a REVOLUTION!  
 Modifications:  
-1. now, two filters:  
+1. now, two filters are applied to the input file (fasta format):  
   - *threshold*: proportion of missing data. If a locus has a proportion of missing data greater than the threshold, then, the locus is rejected.  
   - *minLoci*: if an individual has a number of retained loci smaller than *minLoci*, then reject the individual.  
 2. write some files containing informations.  

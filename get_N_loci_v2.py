@@ -70,8 +70,8 @@ else:
 output = open("retained_loci.txt", "w")
 output.write("# n_total_loci: total number of different loci found in {0}\n".format(infileName))
 output.write("# threshold_missing_data: arbitrary threshold set by the user. A sequence is rejected if it contains a proportion of missing data (N) greater than this threshold\n")
-output.write("# n_available_loci: number of loci for which all RETAINED individuals succesfully pass throw the threshold\n")
-output.write("# minLoci: minimum number of loci for a giver individual to reject it\n")
+output.write("# n_available_loci: number of loci for which all RETAINED individuals succesfully passed the threshold\n")
+output.write("# minLoci: minimum number of loci for a given individual. If a smaller number of loci are retained after filtering the missing data, then the individual is rejected. Period.\n")
 output.write("# n_available_individuals: number of retained individuals, with a number of available loci greater than minLoci ({0})\n".format(minLoci))
 
 output.write("n_total_loci\tthreshold_missing_data\tn_available_loci\tn_total_individiuals\tminLoci\tn_available_individuals\n")
