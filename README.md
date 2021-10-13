@@ -24,7 +24,12 @@ Modifications:
 3. *XXX_filtered_subsampled.fasta*: the new filtered and subsampled fasta file.   
    
 ## Example:  
+### Usage:  
 ```
 python3 /home/croux/Programmes/get_N_loci/get_N_loci_v2.py [input file, in a fasta format] [number of loci to sample] [maximum of tolerated missing data per sequence (between 0 and 1)] [minimum number of retained loci (passing the previous threshold). If an individual has less available loci that this number, then the individual is rejected]   
+```
+  
+### Example:  
+```
 python3 /home/croux/Programmes/get_N_loci/get_N_loci_v2.py longiflora_grandiflora.fasta 5000 0.5 2000  
 ```
